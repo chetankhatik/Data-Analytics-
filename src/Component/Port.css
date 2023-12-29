@@ -1,0 +1,299 @@
+.Home
+{
+    display: flex;
+}
+
+.Home {
+   
+    margin: 20px;
+    background-color: #9f9e9e;
+    border-radius: 8px;
+    padding: 130px;
+    height: 180px;
+    margin-top: 10px;
+    box-shadow: 20px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+  
+    &:hover {
+      box-shadow: 10px 8px 16px rgba(0, 0, 0, 0.2);
+      transform: translateY(-20px);
+    }
+  }
+
+  .Info{
+    position: absolute;
+    background-color:transparent;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    width: 435px;
+  }
+
+  .Info span{
+    color: rgb(233, 165, 38);
+  }
+
+  .Right{
+    margin-left: 730px;
+    margin-top: -80px;
+
+  }
+  .Left .Title
+  {
+    color: white;
+    margin-left: -85px;
+    position: absolute;
+    width: 750px;
+    font-size: 60px;
+    margin-top: -125px;
+  }
+  .Left .Title span{
+    color: rgb(124, 216, 124);
+  }
+
+
+  .Name {
+    animation: glow 1s infinite alternate;
+    color: white;
+    font-size: 35px;
+    text-shadow: 0 0 5px #ff0, 0 0 10px #ff0, 0 0 15px #ff0, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0;
+ }
+
+ @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #ff0, 0 0 10px #ff0, 0 0 15px #ff0, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0;
+    }
+    to {
+      text-shadow: 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0, 0 0 50px #ff0, 0 0 60px #ff0, 0 0 70px #ff0;
+    }
+ }
+
+
+
+/* src/components/Port.css */
+.skills-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .skills-list,
+  .soft-skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .soft-skill-item{
+    background-color: rgb(211, 140, 140);
+    color: white;
+    padding: 25px 18px 31px 20px;
+    height: 90px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 5%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .skill-item {
+    padding-top: 35px;
+    height: 150px;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .skill-item:hover,
+  .soft-skill-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .skill-item img {
+    width: 70px; /* Adjust the size as needed */
+    height: 70px;
+    margin-bottom: 5px;
+  }
+  
+  
+
+
+  /* src/components/Contact.css */
+.contact-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .me{
+
+    width: 145px;
+    height: 115px 
+  }
+  
+  .top{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-top: -30px;
+  }
+  .imgleft .gif{
+    margin-left: -555px;
+    height: 380px;
+    width: 808px;
+  }
+  .logoright
+  {
+    margin-top: -400px;
+    margin-left: 710px;
+
+  }
+  .social-logos
+  {
+    text-align: left;
+  }
+
+  .social-logos a {
+    text-align: center;
+    text-decoration: none;
+  }
+  .social-logos a {
+    color: black;
+  }
+
+  .icon1{
+    color: #4733ff;
+    font-size: 35px;
+  }
+
+  .icon2 {
+    color: #FF5733;
+    font-size: 35px;
+  }
+  
+  .linkedIn-icon {
+    color: #0077B5;
+    font-size: 35px;
+  }
+  
+  .github-icon {
+    color: #211F1F;
+    font-size: 35px;
+  }
+  
+  .whatsapp-icon {
+    color: #25D366;
+    font-size: 35px;
+  }
+  
+  .instagram-icon {
+    color: #E4405F;
+    font-size: 35px;
+  }
+  
+
+/*Button Css*/
+.next1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green color, change as needed */
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s, background-color 0.3s;
+  }
+  
+  .next1:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    background-color: #45a049; /* Darker green color on hover, change as needed */
+    animation: glowing 1.5s infinite; /* Glowing effect animation */
+  }
+  
+  @keyframes glowing {
+    0% {
+      box-shadow: 0 0 5px #4CAF50;
+    }
+    50% {
+      box-shadow: 0 0 20px #4CAF50, 0 0 30px #4CAF50;
+    }
+    100% {
+      box-shadow: 0 0 5px #4CAF50;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .Home {
+      padding: 20px;
+      height: auto;
+      margin-top: 10px;
+    }
+  
+    .Info {
+      position: relative;
+      margin: 0 auto;
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+    }
+  
+    .Right {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .Left .Title {
+      margin-left: 0;
+      position: relative;
+      width: 100%;
+      font-size: 40px;
+      margin-top: 10px;
+      text-align: center;
+    }
+  
+    .skills-list,
+    .soft-skills-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .soft-skill-item,
+    .skill-item {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .skills-container {
+      margin-top: 10px;
+    }
+  
+    .contact-container {
+      margin-top: 10px;
+    }
+  
+    .gif {
+      margin-left: 0;
+      height: auto;
+      width: 100%;
+    }
+  
+    .logoright {
+      margin-top: 0;
+      margin-left: 0;
+    }
+  
+    .social-logos {
+      text-align: center;
+    }
+  
+    .next1 {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  

@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.search {
+  border-radius: 10px;
+}
+
+.pdata {
+  text-align: center;
+}
+
+.header {
+  background-color: rgb(131, 236, 131);
+  padding: 1em 0;
+}
+
+.port ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.port ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.port ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.port a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.port a:hover {
+  transform: translateY(-5px);
+  background-color: #00bcd4;
+  color: #fff;
+}
+
+.data {
+  padding: 20px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 80%;
+  height: 40px;
+  background-color: #0a0707;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.Projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Project-details {
+  width: 100%; /* Adjust the width for smaller screens */
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+
+@media screen and (min-width: 768px) {
+  .Project-details {
+    width: 45%;
+  }
+}
+
